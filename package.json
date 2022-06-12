@@ -1,0 +1,30 @@
+{
+  "name": "appnode_html",
+  "version": "1.0.0",
+  "description": "Este es un ejemplo práctico de Nodejs (Javascript en el Servidor) en el que crearemos una aplicación web sencilla que nos permite entender como funciona la instalación de módulos como Expressjs, y como se usa para crear aplicaciones de múltiples páginas. Tambien aprenderemos a añadir estilos de CSS y frameworks como Bootstrap5, a traves de servir archivos estáticos. Para finalmente desplegar (deploy) gratuitamente nuestra aplicación en  un servicio de la nube llamado Heroku.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yaormu/appNode_html.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yaormu/appNode_html/issues"
+  },
+  "homepage": "https://github.com/yaormu/appNode_html#readme",
+  "dependencies": {
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
